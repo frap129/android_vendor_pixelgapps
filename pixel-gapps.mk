@@ -18,20 +18,17 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
-    Gmail \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
     PlusOne \
     talkback \
-    WallpapersBReel \
-    WallpapersUsTwo \
     YouTube
 
 # /framework
 PRODUCT_PACKAGES += \
-    com.google.android.camera.experimental2016 \
+    com.google.android.camera.experimental2017 \
     com.google.android.dialer.support \
     com.google.android.maps \
     com.google.android.media.effects
