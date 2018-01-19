@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/pixelgapps/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/pixelgapps/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/pixelgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/pixelgapps/lib/libfrsdk.so:system/lib/libfrsdk.so \
+    vendor/pixelgapps/lib64/libfrsdk.so:system/lib64/libfrsdk.so \
     vendor/pixelgapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
     vendor/pixelgapps/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/pixelgapps/lib64/libgdx.so:system/lib64/libgdx.so \
